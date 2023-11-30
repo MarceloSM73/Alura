@@ -1,0 +1,11 @@
+alert('Bem-vindo ao jogo do número!');
+let positivoOuNegativo = prompt('Informe um número: ');
+   
+if (positivoOuNegativo > 0 ) {
+    alert('Esse número é positivo!');
+}
+     else if (positivoOuNegativo < 0){
+    alert('Esse número é negativo!');
+     }
+    else
+        alert('Esse número é neutro!');

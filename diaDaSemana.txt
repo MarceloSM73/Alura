@@ -1,0 +1,11 @@
+alert('Que dia da semana é hoje?');
+let diaDaSemana = prompt('Informe o dia da semana: ');
+   
+if (diaDaSemana == 'domingo') {
+    alert('Bom fim de semana!');
+   }  else if (diaDaSemana == 'sábado'){
+    alert('Bom fim de semana!');}
+   else {
+   alert('Boa semana!');
+  
+}

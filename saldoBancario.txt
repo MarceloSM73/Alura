@@ -1,0 +1,4 @@
+alert('Bem-vindo ao Banco! Clique em OK para saber o seu saldo');
+let saldo = 1000;
+alert(`Seu saldo é: R$ ${saldo}`);
+   

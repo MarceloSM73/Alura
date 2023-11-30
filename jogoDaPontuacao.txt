@@ -1,0 +1,8 @@
+alert('Bem-vindo ao Jogo da Pontuação!')
+let pontuacao = prompt('Informe a pontuação: ');
+   
+if (pontuacao >= 100 ) {
+    console.log('Parabéns, você venceu!')
+   }  else {
+    console.log('Dessa vez não deu. Tente novamente!')
+}
