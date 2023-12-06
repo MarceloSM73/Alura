@@ -1,3 +1,2 @@
-let numero = 1
-while (numero <= 10)
-console.log ('número' + numero)
+let numero = parseInt (Math.random() * 1000 + 1);
+console.log(numero);
