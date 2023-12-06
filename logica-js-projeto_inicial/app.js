@@ -1,2 +1,4 @@
 let resposta = prompt('Qual a linguagem de programação que você mais gosta?');
-console.log (resposta);
+console.log (resposta);let numero = 1
+while (numero <= 10)
+console.log ('número' + numero)
