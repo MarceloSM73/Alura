@@ -50,7 +50,7 @@ console.log (`A diferença entre ${valor1} e ${valor2} é igual a ${resultado}.`
 7 Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.
 
 ```
-let idade = prompt ('Insira a sua idade: .');
+let idade = prompt ('Insira a sua idade: ');
 if (idade >= 18){
   console.log ('Você é maior de idade!');
 }   else {
@@ -61,13 +61,13 @@ if (idade >= 18){
 8 Crie uma variável "numero" e peça um valor com prompt verifique se é positivo, negativo ou zero. Use if-else para imprimir a respectiva mensagem.
 
 ```
-let numero = prompt ('Insira um número de sua escolha: ');
-if (numero == 0){
-  console.log ('O número escolhido é zero!');
-}   else if (numero > 0){
-    console.log ('O número escolhido é positivo!');
+var numero = parseFloat(prompt('Insira um número de sua escolha: '));
+if (numero > 0){
+  console.log ('O número escolhido é positivo!');
+}   else if (numero < 0){
+    console.log ('O número escolhido é negativo!');
 }       else {
-        console.log ('O número escolhido é negativo!');
+        console.log ('O número escolhido é zero!');
       }
 ```
 
