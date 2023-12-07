@@ -1,2 +1,2 @@
-# Alura
-Projetos do curso de programação
+# JavaScript
+Projetos do curso de programação em JavaScript.
