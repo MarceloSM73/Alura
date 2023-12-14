@@ -18,5 +18,5 @@ function somaNumeros(){
     let primeiroNumero = parseInt(prompt("Digite o primeiro numero:"));
     let segundoNumero = parseInt(prompt("Digite o segundo numero:"));
     let resultado = primeiroNumero + segundoNumero;
-    alert(`A soma entre ${primeiroNumero} e ${segundoNumero} é igual a ${resultado}.`)
+    alert(`A soma entre ${primeiroNumero} e ${segundoNumero} é igual a ${resultado}.`);
 }
