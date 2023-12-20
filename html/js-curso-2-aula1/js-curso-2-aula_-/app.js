@@ -18,7 +18,17 @@ function verificarChute(){
     //corpo da função
     //console.log("O botão foi clicado.")
     let chute = document.querySelector("input").value;
-    console.log(chute == numeroSecreto);
+    //console.log(chute == numeroSecreto);
+    if (chute == numeroSecreto){
+        exibirTextoNaTela("h1", "Acertou!");
+        exibirTextoNaTela("p", "Você descobriu o número secreto!");
+    } else {
+        if (chute > numeroSecreto) {
+            exibirTextoNaTela("p", "O número secreto é menor");
+        } else {
+            exibirTextoNaTela("p", "O número secreto é maior");
+        }
+    }
 }
 
 function gerarNumeroAleatorio() {
