@@ -2,9 +2,25 @@
 
 1. Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
 
+   function calculoImc(){
+
+     let altura = prompt("Digite a sua altura (M):");
+
+     let peso = prompt("Digite o seu peso (Kg):");
+
+     let imc = peso / (altura * altura);
+
+     alert(`Seu IMC é: ${imc}.`);
+
+   }
+
+   calculoImc();
+
    
 
 2. Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
+
+   
 
    
 
