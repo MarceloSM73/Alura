@@ -1,10 +1,5 @@
-function calculoFatorial(){
-    let num = prompt("Digite um número para calcular o seu fatorial");
-    while (num>0){
-        num = num*fatorial;
-        fatorial--;
-    return num;
-    }
-    alert(`O fatorial de ${num} é ${fatorial}.`);
+function calculaMedia(a, b, c){
+    return (a + b +c) /3;
 }
-calculoFatorial();
+let media = calculaMedia(3, 6, 9);
+console.log(media);
