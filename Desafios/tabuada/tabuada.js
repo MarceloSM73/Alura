@@ -5,6 +5,5 @@ function tabuada(numero) {
     }
   }
   
-  // Exemplo de uso
   let numero = prompt("Informe um número para calcular a tabuada:");
   tabuada(numero);
